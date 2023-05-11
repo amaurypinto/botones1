@@ -1,0 +1,192 @@
+.buttoncontainer{
+	display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 10px;
+            justify-items: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+}
+.boton1{
+	padding: 10px 20px;
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+	
+}
+.boton2{
+	padding: 10px 20px;
+	background-color: #d84315;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+}
+
+  .boton3{
+	padding: 10px 20px;
+	background-color: #4e342e;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+
+  }
+  .boton4{
+	padding: 10px 20px;
+	background-color:#ffab91;
+	color: #000000;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+  }
+  .boton5{
+	padding: 10px 20px;
+	background-color: #1b5e20;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+  }
+  .boton6{
+	padding: 10px 20px;
+	background-color: #00897b;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+  }
+  .boton7{
+	padding: 10px 20px;
+	background-color: #01579b;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+  }
+  .boton8{
+	padding: 10px 20px;
+	background-color: #000000;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+  }
+  .boton9{
+	padding: 10px 20px;
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+  }
+  .boton10{
+	padding: 10px 20px;
+	background-color:gray;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+  }
+  .boton11{
+	padding: 10px 20px;
+	background-color: #4a148c;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+  }
+  .boton12{
+	padding: 10px 20px;
+	background-color: #880e4f;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+  }
+  .boton13{
+	padding: 10px 20px;
+	background-color: #03a9f4;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+  }
+  .boton14{
+	padding: 10px 20px;
+	background-color:#c0ca33;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+  }
+  .boton15{
+	padding: 10px 20px;
+	background-color: #76ff03 ;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+  }
+  .boton1:hover {
+	background-color: #ffb74d;
+	color: #fff;
+  }
+  .boton2:hover{
+	transform: scale(1.2);
+  }
+  .boton3:hover{
+
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  }
+  .boton4:hover{
+	border: 2px solid yellow;
+  color: yellow;
+  }
+  .boton5:hover{
+	color:#82b1ff;
+  }
+  .boton6:hover{
+	box-shadow: 2px 2px 5px #666666;
+  }
+  .boton7:hover{
+	transform: scale(0.95);
+  }
+  .boton8:hover{
+	position: relative;
+    top: 0;
+    transition: top 0.3s ease;
+  }
+  
+  .boton8:hover {
+    top: -5px;
+  }
+  .boton9:hover{
+	transform: rotateY(180deg);
+}
+.boton10:hover{
+	transform: rotateX(180deg);
+}
+  .boton11:hover{
+	transform: rotate(180deg);
+  }
+  .boton12{
+	position: relative;
+    top: 0;
+    transition: top 0.3s ease;
+  }
+  
+  .boton12:hover {
+    top: 5px;
+  }
+  .boton13:hover{
+text-decoration: underline overline dotted  royalblue;background-color:black;
+  }
+  .boton14:hover{
+	transform: skewX(50deg);
+  }
+  .boton15:hover{
+	transform: rotateY(60deg);
+  }
